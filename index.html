@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Strateole2-Rclone, a personally operated Google Drive file-transfer workflow for scientific data processing.">
+  <title>Strateole2-Rclone | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="./index.html">Strateole2-Rclone</a>
+      <nav aria-label="Main navigation"><a aria-current="page" href="./index.html">Home</a><a href="./privacy.html">Privacy policy</a></nav>
+    </header>
+    <main>
+      <p class="eyebrow">PERSONAL RESEARCH WORKFLOW</p>
+      <h1>Scientific data transfers with Google Drive and Rclone</h1>
+      <p class="lead">Strateole2-Rclone is a personally operated workflow for downloading authorized scientific CSV files from Google Drive, processing them on a user-managed Linux computer, and uploading resulting NetCDF files to a selected Google Drive destination.</p>
+      <section aria-labelledby="how"><h2 id="how">What it does</h2>
+        <ol>
+          <li>Uses Rclone and Google OAuth authorization to access Google Drive files and folders selected by the operator.</li>
+          <li>Downloads daily scientific CSV records; separately retrieves a reference NetCDF file from a configured FTP server.</li>
+          <li>Runs local Python data processing, including time matching, interpolation, and NetCDF creation.</li>
+          <li>Uploads processed NetCDF output to a Google Drive location chosen by the operator.</li>
+        </ol>
+      </section>
+      <section aria-labelledby="use"><h2 id="use">How Google data is used</h2>
+        <p>Google Drive access is used only to list, download, and upload files required for the configured workflow. The workflow is intended for the operator's own authorized scientific data and is not a public Google Drive service.</p>
+        <p>Google OAuth credentials are managed by Rclone on the operator's computer; this public informational website does not request Google sign-in or collect authentication tokens.</p>
+      </section>
+      <p class="notice">This site describes a personal workflow that uses the open-source Rclone tool. It is not affiliated with or endorsed by Google or the Rclone project.</p>
+      <p><a class="action" href="./privacy.html">Read the privacy policy</a></p>
+    </main>
+    <footer><span>Strateole2-Rclone</span><a href="./privacy.html">Privacy policy</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Strateole2-Rclone personal scientific data transfer workflow.">
+  <title>Strateole2-Rclone | Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="./index.html">Strateole2-Rclone</a>
+      <nav aria-label="Main navigation"><a href="./index.html">Home</a><a aria-current="page" href="./privacy.html">Privacy policy</a></nav>
+    </header>
+    <main>
+      <p class="eyebrow">PRIVACY</p>
+      <h1>Privacy policy</h1>
+      <p class="lead">This policy describes the personal Strateole2-Rclone workflow's use of Google account data. Last updated: November 11, 2026.</p>
+      <section><h2>What Google user data is accessed</h2>
+        <p>When authorized by the operator through Google OAuth, Rclone can access Google Drive file listings, metadata, and file contents allowed by the granted permission scope. The workflow uses this access to read designated daily CSV data and to upload processed NetCDF files to designated Drive folders.</p>
+      </section>
+      <section><h2>How data is used</h2>
+        <p>Data is used solely to perform the operator's configured research file-transfer and processing tasks. Files are downloaded to a user-managed computing environment, processed using local Python scripts, and the results uploaded to the selected Google Drive destination. A separate FTP server supplies a reference data file; the workflow does not upload Google Drive data to that FTP server.</p>
+      </section>
+      <section><h2>Storage and retention</h2>
+        <p>Google Drive file copies and derived scientific outputs may be stored on the operator's Linux computer and within the Google Drive folders chosen by the operator until the operator removes them. Rclone stores OAuth configuration and access tokens in a local user-controlled configuration file. This informational website does not store Google Drive content or OAuth tokens.</p>
+      </section>
+      <section><h2>Sharing</h2>
+        <p>This personal workflow is not designed to sell, advertise with, or distribute Google user data to third parties. Processed output is sent to the Google Drive destination configured by the operator, where normal Google Drive sharing permissions apply. The operator is responsible for choosing and managing those permissions.</p>
+      </section>
+      <section><h2>Security and control</h2>
+        <p>Access is authorized through Google's OAuth flow and managed by Rclone. Only the operator should have access to the local configuration and output directories. Google account authorization can be reviewed or revoked in <a href="https://myaccount.google.com/permissions">Google Account third-party connections</a>. Revoking access will prevent further Drive transfers until reauthorized.</p>
+      </section>
+      <section><h2>Website data</h2>
+        <p>These static pages do not include sign-in forms, analytics scripts, or advertising trackers. The GitHub Pages hosting provider may process technical request information under its own privacy practices.</p>
+      </section>
+      <section><h2>Contact and updates</h2>
+        <p>For questions or requests about this personal integration, contact the developer using the support email listed on the Google OAuth consent screen. This policy will be revised if the workflow's Google user-data practices change.</p>
+      </section>
+      <p class="notice">This policy describes the intended configuration. The operator should confirm that it accurately reflects their actual Rclone remotes, storage, access permissions, and data-handling practices before publishing.</p>
+    </main>
+    <footer><span>Strateole2-Rclone</span><a href="./index.html">Home</a></footer>
+  </div>
+</body>
+</html>
